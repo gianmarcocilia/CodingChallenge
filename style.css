@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(fotocodingchallenge/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: "Ubuntu", sans-serif
+}
+
+.container{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    margin-top: 75px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    border-radius: 5%;
+    border: 50px solid hsla(0, 0%, 0%, 0.0);
+}
+
+.logosito{
+    width: 250px;
+    margin-left: 425px;      
+}
+
+.titolosito{
+    color: limegreen;
+    text-align: center;
+    margin: 0;
+}
+
+nav{
+    background-color: limegreen;
+    padding: 10px;
+    text-align: center;
+}
+
+main{
+    color: white;
+}
+
+input[type="checkbox"], .nomemonopattino{
+    display: inline-block;
+}
+
+.nomemonopattino, .luogo{
+    margin-bottom: 5px;
+}
+
+.luogo, .carica{
+    margin-top: 0;
+}
+
+.carica{
+    margin-bottom: 0;
+}
+
+.statocarica1{
+    width: 300px;
+    background-color: orange;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.statocarica2{
+    width: 500px;
+    background-color: limegreen;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.statocarica3{
+    width: 150px;
+    background-color: red;
+    border-radius: 5px;
+    height: 30px;
+}
+
+
